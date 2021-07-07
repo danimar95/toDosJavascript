@@ -21,7 +21,7 @@ function toggleModaltoCreateCard (){
 function editCard (titleEditedParameter,completeEditedParameter){
   editedCard.getElementsByClassName("card-title")[0].innerText = capitalize(titleEditedParameter);
   editedCard.getElementsByClassName("completedCheckbox")[0].className = completeEditedParameter ? 
-  "btn far fa-check-square completedCheckbox" : "btn far fa-square completedCheckbox";
+  "btn far fa-check-square cardOptions completedCheckbox" : "btn far fa-square cardOptions completedCheckbox";
  }
  
 function toggleModalToEditCard(){
