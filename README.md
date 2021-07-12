@@ -11,7 +11,7 @@
 
 ## Purpose, tools and Languages
 
-This is a simple task manager app where users are able to create, delete and update a task. It was developed using vanilla javascript and Bootstrap for the styles.
+This is a simple task manager app where users are able to create, delete and update a task. It won't allow you to create an empty task. It was developed using vanilla javascript, Bootstrap and sweetalert2 for the styles.
 The app also connects with the jsonplaceholder's API "/todos", a free and fake API available for tests which allowed me to implement the CRUD operations (Create/Post Method, Read/Get Method, Update/Put Method and Delete/Delete Method) in my app, meaning that when you run the code, the first thing you'll see is a list of tasks defined by the API used and by the GET method.
 
 As I'm working in the development of my portfolio, this is my first created app. I choosed to make a to dos app beacuse i think it is a simple way of showing my skills and understanding of html, css, bootstrap, RESTful APIs and vanilla javascript.
